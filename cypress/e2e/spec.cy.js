@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 describe('page', () => {
-  it('works', () => {
-    cy.visit('https://example.cypress.io')
+  it('crashes because unreachable', () => {
+    cy.visit('https://lalallalalalalalalalalalal.com')
   })
 })
